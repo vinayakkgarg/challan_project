@@ -3,9 +3,9 @@
 import cv2
 
 
-video_capture = cv2.VideoCapture('dataset/video1.avi')
+#video_capture = cv2.VideoCapture('dataset/video1.avi')
 #video_capture = cv2.VideoCapture('dataset/video2.avi')
-#video_capture = cv2.VideoCapture('dataset/video3.mp4')
+video_capture = cv2.VideoCapture('dataset/video3.mp4')
 #video_capture = cv2.VideoCapture('dataset/video4.mp4')
 
 car_cascade = cv2.CascadeClassifier('cars.xml')
